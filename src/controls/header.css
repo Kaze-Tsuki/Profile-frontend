@@ -1,0 +1,18 @@
+.header, .footer {
+    display: flex;
+    justify-content: center;  /* 水平置中 */
+    align-items: center;      /* 垂直置中 */
+    text-align: center;
+    padding: 10px;
+    height: 70px;
+}
+
+.header {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    color: #D1E9E9;
+    background-color: #272727;
+}
+
