@@ -1,0 +1,73 @@
+/* 容器：讓多個卡片自動換行排列 */
+.exhibit-display {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+    background: #f5f6fa;
+}
+
+/* 單一卡片 */
+.block-display {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    width: 320px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    transition: box-shadow 0.2s;
+}
+
+.block-display:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+/* 標題區塊 */
+.block-display-title {
+    margin-bottom: 8px;
+}
+
+/* 標籤區塊：左右分散排列 */
+.block-display-tags {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.left-tag {
+    color: #1976d2;
+    font-weight: 500;
+}
+
+.right-tag {
+    color: #888;
+    font-size: 0.95em;
+}
+
+/* 內容文字 */
+.block-display p {
+    margin: 0;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+/* 圖片樣式（如有需要） */
+.block-display img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.block-display-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}

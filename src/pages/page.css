@@ -1,0 +1,13 @@
+/* Global */
+.intro {
+    text-align: center;
+    padding: 5px;
+    color: #333;
+}
+
+p.intro {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}

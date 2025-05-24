@@ -4,7 +4,7 @@
     align-items: center;      /* 垂直置中 */
     text-align: center;
     padding: 10px;
-    height: 70px;
+    height: 160px;
 }
 
 .header {
@@ -14,5 +14,19 @@
 .footer {
     color: #D1E9E9;
     background-color: #272727;
+}
+
+.program {
+    background-image: url("../pic/programming.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.program h1 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 

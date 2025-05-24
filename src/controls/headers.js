@@ -11,7 +11,7 @@ function DefaultHeader(){
 function ProgramHeader(){
     return (
         <div className="header program">
-            <h1>Program Header</h1>
+            <h1>程式作品集</h1>
         </div>
     );
 }
@@ -19,7 +19,7 @@ function ProgramHeader(){
 function FinanceHeader(){
     return (
         <div className="header finance">
-            <h1>Finance Header</h1>
+            <h1>財務管理</h1>
         </div>
     );
 }
