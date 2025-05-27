@@ -1,9 +1,11 @@
 import "./header.css";
+import {Link } from "react-router-dom";
+import { FaGithub } from "react-icons/fa";
 
-function DefaultHeader(){
+function DefaultHeader({display}) {
     return (
-        <div className="header">
-            <h1>Header</h1>
+        <div className="header default">
+            <h1>{display}</h1>
         </div>
     );
 }
@@ -28,7 +30,20 @@ function FinanceHeader(){
 function DefaultFooter(){
     return (
         <div className="footer">
-            <h1>Footer</h1>
+            <div className="footer-catalog">
+                <h2>目錄</h2>
+                <ul>
+                    <li><Link to="/">首頁</Link></li>
+                    <li><Link to="/Program">程式作品集</Link></li>
+                    <li><Link to="/Finance">財務管理</Link></li>
+                    <li><Link to="/About">關於</Link></li>
+                </ul>
+            </div>
+            <div className="footer-about">
+                <a href="https://github.com/Kaze-Tsuki" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                </a>
+            </div>
         </div>
     );
 }

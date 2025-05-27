@@ -11,3 +11,11 @@ p.intro {
     margin: 0 auto;
     max-width: 800px;
 }
+
+Link:-webkit-any-link, a:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}

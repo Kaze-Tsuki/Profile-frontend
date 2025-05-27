@@ -5,15 +5,29 @@
     text-align: center;
     padding: 10px;
     height: 160px;
+    text-decoration: none;
 }
 
-.header {
-    background-color: #f8f9fa;
+.default {
+    background-image: url("../pic/home.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.default h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .footer {
     color: #D1E9E9;
-    background-color: #272727;
+    background-color: #393939;
+    justify-content: space-between;
 }
 
 .program {
@@ -30,3 +44,27 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.finance {
+    background-image: url("../pic/finance.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.finance h1 {
+    font-weight: 300;
+    color: #fff;
+    font-size: 2.5em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.footer-catalog {
+    text-align: left;
+}
+.footer-catalog h2 {
+    margin-left: 20px;
+}
+
+.footer-about {
+    text-align: right;
+}
