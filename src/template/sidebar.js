@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
-import './template.css';
+import './sidebar.css';
 
 // src/sidebar.js
 
 const menuItems = [
     { name: "首頁", path: "" ,subcontent: []},
     { name: "作品集", path: "/Program" ,
-        subcontent: [{name: "OOP", path: "/Program"}, {name: "網頁設計", path: "/Program"}]},
+        subcontent: [{name: "OOP", path: "/Program/OOP"}, {name: "網頁設計", path: "/Program/web"}]},
     { name: "資產管理", path: "/Finance" ,
         subcontent: [{name: "總覽", path: "/Finance"}, {name: "分析", path: "/Finance"}]},
+    { name: "關於我", path: "/About" ,subcontent: []},
 ];
 
 function ListWSubmenu({ content, collapsed }) {

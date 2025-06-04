@@ -1,8 +1,8 @@
-import { useState } from "react";
-import Template from "../controls/template";
+import { useParams } from "react-router-dom";
+import Template from "../template/template";
 import ExhibitDisplay from "../controls/exhibit";
-import { ProgramHeader, DefaultFooter } from "../controls/headers";
-import "./page.css";
+import { ProgramHeader, DefaultFooter } from "../template/headers";
+// import "./page.css";
 
 // Gallery data
 const galleryData = [
@@ -35,7 +35,8 @@ const galleryData = [
   }
 ];
 
-export default function Program() {
+export default function ProgramSubPage() {
+  const params = useParams();
 
   return (
     <Template

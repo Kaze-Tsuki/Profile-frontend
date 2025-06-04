@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Template from "../controls/template";
-import { FinanceHeader, DefaultFooter } from "../controls/headers";
+import Template from "../template/template";
+import { FinanceHeader, DefaultFooter } from "../template/headers";
 
 export default function Finance() {
 

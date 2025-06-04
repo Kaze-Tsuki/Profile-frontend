@@ -73,6 +73,7 @@
 }
 
 .sub-menu-item:hover {
+  border-radius: 4px;
   background-color: #CA8EC2;
   color: #F0F0F0;
   transition: background-color 0.2s ease, color 0.2s ease;

@@ -1,7 +1,7 @@
 import {Link } from "react-router-dom";
-import Template from "../controls/template";
+import Template from "../template/template";
 import "./home.css";
-import { DefaultHeader, DefaultFooter } from "../controls/headers";
+import { DefaultHeader, DefaultFooter } from "../template/headers";
 
 function MainContent() {
   return (
