@@ -18,11 +18,19 @@
                     "right": "2025-01-01",
                     "content": "A library management system to manage books and members."
                 }
+            },
+            {
+                "title": "Sample code for OOP",
+                "description": {
+                    "left": "C++",
+                    "right": "2025-01-01",
+                    "content": "Sample code for OOP class, including basic concepts and examples."
+                }
             }
         ]
     },
     {
-        "title": "WebDesign",
+        "title": "Web Design",
         "description": "Self-study projects and my personal website",
         "projects": [
             {
