@@ -14,7 +14,7 @@ export default function App() {
         <Route path="/" element={<Sidebar />}>
           <Route index element={<Home />} />
           <Route path="Program" element={<Program />} />
-          <Route path="Program/:exhibitId" element={<ProgramSubPage />} />
+          <Route path="Program/:exhibitType" element={<ProgramSubPage />} />
           <Route path="Finance" element={<Finance />} />
           <Route path="About" element={<Home />} />
         </Route>

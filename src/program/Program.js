@@ -2,13 +2,10 @@ import CategoryCard from "../controls/categoryCard";
 import Template from "../template/template";
 import ExhibitDisplay from "../controls/exhibit";
 import { ProgramHeader, DefaultFooter } from "../template/headers";
-// import "./page.css";
+import programCate from "./programCate.json";
 
 export default function Program() {
-  const categories = [
-      { title: 'OOP', description: 'Simple projects and algorithms.', link: '/Program/OOP' },
-      { title: 'JavaScript', description: 'Web apps and experiments.', link: '/Program/webpage' },
-  ];
+  const categories = programCate;
 
   return (
     <Template
@@ -20,7 +17,7 @@ export default function Program() {
                     key={cat.title}
                     title={cat.title}
                     description={cat.description}
-                    link={cat.link}
+                    link={"/Program/" + cat.title}
                 />
             ))}
         </div>

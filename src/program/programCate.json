@@ -1,0 +1,38 @@
+[
+    {
+        "title": "OOP",
+        "description": "projects and examples in object-oriented programming class",
+        "projects": [
+            {
+                "title": "TO-DO List",
+                "description": {
+                    "left": "C++",
+                    "right": "2025-01-01",
+                    "content": "A simple TO-DO list application to manage tasks."
+                }
+            },
+            {
+                "title": "Library Management",
+                "description": {
+                    "left": "C++",
+                    "right": "2025-01-01",
+                    "content": "A library management system to manage books and members."
+                }
+            }
+        ]
+    },
+    {
+        "title": "WebDesign",
+        "description": "Self-study projects and my personal website",
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": {
+                    "left": "HTML, CSS, JavaScript, React",
+                    "right": "2025-01-01",
+                    "content": "A portfolio website to display my work and skills."
+                }
+            }
+        ]
+    }
+]
